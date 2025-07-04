@@ -83,7 +83,7 @@ rm  ubuntu.tar
   echo " Downloading FEXDroid starting scripts..."
   
   cd ~
-  wget https://raw.githubusercontent.com/gamextra4u/FEXDroid/v0.1/fexdroid
+  wget https://raw.githubusercontent.com/Erhannis/FEXDroid/refs/heads/main/fexdroid
   chmod +x fexdroid
   mv fexdroid $PREFIX/bin/fexdroid
   
