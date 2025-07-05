@@ -24,9 +24,9 @@ done
 
   echo "Downloading Steam scripts"
   
-  curl -o setup_steam.sh https://raw.githubusercontent.com/Erhannis/FEXDroid/refs/heads/fork/steamosts/setup_steam.sh
-  curl -o setup_steam_2.sh https://raw.githubusercontent.com/Erhannis/FEXDroid/refs/heads/fork/steamosts/setup_steam_2.sh
-  curl -o start_steam.sh https://raw.githubusercontent.com/Erhannis/FEXDroid/refs/heads/fork/steamosts/start_steam.sh
+  curl -o setup_steam.sh https://raw.githubusercontent.com/Erhannis/FEXDroid/refs/heads/fork/mistosts/setup_steam.sh
+  curl -o setup_steam_2.sh https://raw.githubusercontent.com/Erhannis/FEXDroid/refs/heads/fork/mistosts/setup_steam_2.sh
+  curl -o start_steam.sh https://raw.githubusercontent.com/Erhannis/FEXDroid/refs/heads/fork/mistosts/start_steam.sh
 
   chmod +x setup_steam.sh setup_steam_2.sh start_steam.sh
 

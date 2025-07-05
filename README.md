@@ -2,7 +2,7 @@
 This project aims to bring 'FEX-Emu' a fantastic emulator of X86_64 to the Android platform. 
 WELCOME to FEXDroid by GameXtra4u
 
-(This version has been modified by Erhannis to support https://github.com/Erhannis/SteamOSTs )
+(This version has been modified by Erhannis to support https://github.com/Erhannis/MistOSTs )
 
 # FEX-Emu on Android
 
@@ -27,7 +27,7 @@ First You Need to Install Termux App and Termux-x11
 
 ### Installation
 1.   Copy This to Termux
- `curl -o install https://raw.githubusercontent.com/Erhannis/FEXDroid/refs/heads/fork/steamosts/install && chmod +x install && ./install`
+ `curl -o install https://raw.githubusercontent.com/Erhannis/FEXDroid/refs/heads/fork/mistosts/install && chmod +x install && ./install`
 2. After Installation complete Type "fexdroid" to start.
 3. After start Type `"./rootfs"` to install ROOTFS for FEX, Without ROOTFS FEX-EMU is useless on ARM64.
 

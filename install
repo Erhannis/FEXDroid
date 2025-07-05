@@ -83,13 +83,13 @@ rm  ubuntu.tar
   echo " Downloading FEXDroid starting scripts..."
   
   cd ~
-  wget https://raw.githubusercontent.com/Erhannis/FEXDroid/refs/heads/fork/steamosts/fexdroid
+  wget https://raw.githubusercontent.com/Erhannis/FEXDroid/refs/heads/fork/mistosts/fexdroid
   chmod +x fexdroid
   mv fexdroid $PREFIX/bin/fexdroid
   
   cd /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/ubuntu/root/
   
-  wget https://raw.githubusercontent.com/Erhannis/FEXDroid/refs/heads/fork/steamosts/rootfs
+  wget https://raw.githubusercontent.com/Erhannis/FEXDroid/refs/heads/fork/mistosts/rootfs
 chmod +x rootfs
   
   echo ""
