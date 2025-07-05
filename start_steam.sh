@@ -5,5 +5,4 @@ if [[ $EUID -ne $(id -u steam) ]]; then
 fi
 
 cd /home/steam/Steam
-FEXBash
-./steamcmd.sh
+FEXBash steamcmd.sh
