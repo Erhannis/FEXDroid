@@ -39,7 +39,7 @@ login <username>
 <password>
 [confirm login in steam app]
 app_info_find common/type Music
-app_update <ID> validate
+app_update <ID>
 exit*5
 
 
