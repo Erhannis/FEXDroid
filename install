@@ -6,10 +6,10 @@ termux-setup-storage & sleep 5
 pkg update -y
 
 echo ""
-echo " Installing x11-repo..."
+echo " Installing x11-repo and tmux..."
 echo ""
 
-pkg install x11-repo -y 
+pkg install x11-repo tmux -y 
 
 echo ""
 echo ""
