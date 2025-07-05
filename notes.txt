@@ -1,0 +1,49 @@
+pkg install tmux
+curl -o install https://raw.githubusercontent.com/Erhannis/FEXDroid/main/install && chmod +x install && ./install
+fexdroid
+./rootfs (modified)
+useradd -m -s /bin/bash steam
+chown -R steam:steam .fex-emu
+mv ~/.fex-emu /home/steam/.fex-emu
+su - steam
+mkdir /home/steam/Steam
+cd /home/steam/Steam
+curl -sqL "https://steamcdn-a.akamaihd.net/client/installer/steamcmd_linux.tar.gz" | tar zxvf -
+FEXBash
+./steamcmd.sh
+
+
+
+SESSION_NAME="x_session"
+
+tmux kill-session -t "$SESSION_NAME"
+
+
+
+
+
+
+
+rmdir /home/steam/Steam/steamapps/music
+ln -s /sdcard/Music/Steam /home/steam/Steam/steamapps/music
+
+(I'm noticing mild glitchiness - crash until relog FEXDroid, sloooow progress with "GetUpdateInfo took too long")
+
+fexdroid
+su - steam
+cd ~/Steam
+FEXBash
+./steamcmd.sh
+
+login <username>
+<password>
+[confirm login in steam app]
+app_info_find common/type Music
+app_update <ID> validate
+exit*5
+
+
+"Success! App '###' fully installed."
+
+
+cp --update=none

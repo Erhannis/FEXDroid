@@ -18,16 +18,16 @@ echo "installing pulseaudio,termux-x11,proot-distro packages"
 
 if pkg install pulseaudio wget xkeyboard-config proot-distro -y
 then
-  echo "Aditional packages is installed"
+  echo "Additional packages installed"
 else
-  echo "Aditional packages installation is failed"
+  echo "Additional packages installation failed"
 fi
 
 if pkg install termux-x11-nightly -y & sleep 10
 then
   echo "termux-x11 is installed"
 else
-  echo "Termux-x11 is not Installed"
+  echo "Termux-x11 is not installed"
 fi
 sleep 1
 
@@ -41,7 +41,7 @@ echo "${red}WARNING${clear}!!!"
 
 echo "By Installing This Setup Your old Distro is Removed"
 
-echo "If you Have 'Box64droid' or Any Ubuntu Installed Don't  Install it!"
+echo "If you Have 'Box64droid' or Any Ubuntu Installed Don't Install it!"
 
 while true; do
 
@@ -83,13 +83,13 @@ rm  ubuntu.tar
   echo " Downloading FEXDroid starting scripts..."
   
   cd ~
-  wget https://raw.githubusercontent.com/Erhannis/FEXDroid/refs/heads/fork/target_erhannis/fexdroid
+  wget https://raw.githubusercontent.com/Erhannis/FEXDroid/refs/heads/fork/steamosts/fexdroid
   chmod +x fexdroid
   mv fexdroid $PREFIX/bin/fexdroid
   
   cd /data/data/com.termux/files/usr/var/lib/proot-distro/installed-rootfs/ubuntu/root/
   
-  wget https://raw.githubusercontent.com/Erhannis/FEXDroid/refs/heads/fork/target_erhannis/rootfs
+  wget https://raw.githubusercontent.com/Erhannis/FEXDroid/refs/heads/fork/steamosts/rootfs
 chmod +x rootfs
   
   echo ""
