@@ -12,6 +12,8 @@ curl -o start_steam.sh https://raw.githubusercontent.com/Erhannis/FEXDroid/refs/
 
 chmod +x install read_session.sh long_read_session.sh write_session.sh start_session.sh setup_steam.sh setup_steam_2.sh start_steam.sh
 
+pkg install tmux -y
+
 #mkfifo pipe0
 #mkfifo pipe1
 #mkfifo pipe2
